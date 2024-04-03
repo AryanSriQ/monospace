@@ -1,0 +1,7 @@
+POST https://hvh2c1jv-8000.inc1.devtunnels.ms/api/auth/login
+Content-Type:  application/json
+
+{
+    "email": "aryanyash999@gmail.com",
+    "password": "Aryan123"
+}

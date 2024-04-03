@@ -11,6 +11,14 @@
     }
   ],
   "compilerOptions": {
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "@types/nodemailer",
+      "@types/jsonwebtoken",
+      "@types/bcrypt",
+      "@types/validator",
+      "@types/handlebars"
+    ]
   }
 }

@@ -1,0 +1,41 @@
+export const ERROR_MESSAGES = {
+  INVALID_EMAIL: 'Invalid email',
+  EMAIL_IS_REQUIRED: 'Email is required',
+  EMAIL_ALREADY_EXISTS: 'Email is already in use. Please login',
+  EMAIL_NOT_VERIFIED: 'Email is not verified, Please verify your email',
+  EMAIL_EXISTS_NOT_VERIFIED:
+    'Email is already in use and is not verified. Please verify your email',
+  USER_NOT_FOUND: 'User not found',
+  USER_ALREADY_VERIFIED: 'User already verified',
+  INVALID_PASSWORD: 'Invalid password',
+  INVALID_TOKEN: 'Invalid token',
+  INTERNAL_SERVER_ERROR: 'Internal server error',
+  PASSWORD_IS_REQUIRED: 'Password is required',
+  CONFIRMPASSWORD_IS_REQUIRED: 'Confirm Password is required',
+  NO_USER_WITH_THIS_EMAIL: 'No user found with this email',
+  LOGIN_UNSUCCESSFUL: 'Login unsuccessful',
+  REGISTER_UNSUCCESSFUL: 'Register unsuccessful',
+  UNABLE_TO_SEND_RESET_EMAIL: 'Unable to send reset password email',
+  UNABLET_TO_RESET_PASSWORD: 'Unable to reset password',
+  ALL_FIELDS_REQUIRED: 'All fields are required',
+  NAME_TOO_SHORT: 'Name must be at least 2 characters',
+  PASSWORDS_DONT_MATCH: 'Passwords do not match',
+  PASSWORD_TOO_SHORT: 'Password must be at least 6 characters',
+  WAIT_FOR_A_MINUTE: 'Please wait for 1 minute',
+  UNABLE_TO_SEND_VERIFICATION_EMAIL: 'Unable to send verification email',
+  INVALID_VERIFICATION_TOKEN: 'Invalid verification token',
+  VERIFICATION_TOKEN_EXPIRED: 'Verification token expired',
+  UNABLE_TO_VERIFY_EMAIL: 'Email verification failed',
+  UNAUTHORIZED: 'Unauthorized',
+};
+
+export const SUCCESS_MESSAGES = {
+  LOGIN_SUCCESSFUL: 'Login successful',
+  REGISTER_SUCCESSFUL: 'Register successful',
+  RESET_EMAIL_SENT_SUCCESSFUL: 'Reset password email sent',
+  VERIFICATION_EMAIL_SENT_SUCCESSUL: 'Verification email sent',
+  VERIFIACTION_SUCCESSFUL: 'Verification successful',
+  PASSWORD_RESET_SUCCESSFUL: 'Password reset successful',
+  AUTHENTICATED_PROFILE: 'Authenticated Profile',
+};
+
